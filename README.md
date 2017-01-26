@@ -15,5 +15,10 @@ This PHP project can be used as a basic login framework. The features include lo
  - Delete installer.php and sql.txt files.
  - Login to the admin panel with the following information **admin / password**
  
+## Credits ##
+ - Bootstrap - http://getbootstrap.com/
+ - jQuery - https://jquery.com/
+ - Hardik Manktala - http://hardikmanktala.com/
+
 ## Notes ##
 If you've any question or query, please feel free to contact us. You can tweet at @hackingtag or write an email to support[at]rapid2fa[dot]com.
