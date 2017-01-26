@@ -1,18 +1,15 @@
 <?php
 
 /**
-*
-* "Login-Script" is a copyrighted service from Inculutus Ltd. It remains the property of it's original author: Areeb.
-*
-*
-* This file is part of Login-Script. Please don't reproduce any part of the script without the permissions of Areeb.
-*
-* Please contact: hello[at]areebmajeed[dot]me for queries.
-*
-* Copyrighted 2015 - Inculutus (Areeb)
-*
-*/
-
+ * PHP Login Script - Rapid 2FA
+ *
+ * @author Areeb Majeed
+ * @copyright 2017 Rapid 2FA
+ * @license https://opensource.org/licenses/MIT MIT License
+ *
+ * @link https://rapid2fa.com/
+ */
+ 
 if(version_compare(PHP_VERSION, '5.3.7', '<')) {
 exit('Sorry, this script does not run on a PHP version smaller than 5.3.7!');
 } elseif (version_compare(PHP_VERSION, '5.5.0', '<')) {
