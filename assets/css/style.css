@@ -1,0 +1,219 @@
+body, html {
+	overflow-x: hidden;
+	font-family: 'Questrial';
+}
+
+#wrapper {
+  margin-top: 80px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+    background: white;
+    border-bottom: 2px solid #30bbcb;
+    font-family: 'Questrial';
+    text-transform: uppercase;
+}
+
+.navbar-fixed-top i {
+  color: #30bbcb;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+.navbar-brand {
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+
+.splash {
+  background: url('../images/splash-bg.jpg');
+  background-size: 100%;
+  color: white;
+  font-family: 'Questrial';
+  padding: 40px;
+  text-align: center;
+}
+
+.splash .btn.btn-primary {
+  font-family: 'Questrial';
+  text-transform: uppercase;
+  border-radius: 0px;
+  background: #30BBCB;
+  padding: 30px;
+  margin-right: 15px;
+}
+
+.section-tout h1 {
+  font-style: italic;
+  font-family: 'Questrial';
+}
+
+.strike-left {
+  position: absolute;
+    min-height: 6px;
+    background: #30BBCB;
+    left: 0;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.strike-right {
+  position: absolute;
+    min-height: 6px;
+    background: #30BBCB;
+    right: 0;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.well {
+  box-shadow: none;
+  border-radius: 0px;
+
+}
+
+.footer {
+  border-top: 2px solid #30BBCB;
+  padding: 40px;
+}
+
+#form-page {
+  background: url('../images/page-bg.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#duh {
+  background: white;
+  margin-top: 10%;
+  padding: 50px;
+  border: 4px solid #30BBCB;
+}
+
+@media screen and (max-width: 1440px) {
+  #duh {
+    margin-top: 2%;
+  }
+}
+
+#duh h2 {
+  font-family: 'Questrial';
+  text-transform: uppercase;
+  color: #2c2c2c;
+}
+
+#duh .form-control {
+  border-radius: 0px;
+  border: 0px;
+  border-bottom: 2px solid #30BBCB;
+  padding: 4px;
+  font-family: 'Questrial';
+  box-shadow: none;
+}
+
+#duh .btn.btn-primary {
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Questrial';
+  padding: 12px;
+  background: #30BBCB;
+  text-transform: uppercase;
+  font-size: 15pt;
+  border: 0px;
+}
+
+#duh a {
+  color: #30BBCB;
+}
+
+#custom-page {
+  background: url('../images/custom-page-bg.jpg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#admin-page {
+  background: url('../images/admin-bg.jpg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#admin-page #duh {
+  margin-bottom: 20px;
+  margin-top: 5%;
+}
+
+#admin-page #duh h1 {
+  font-family: 'Questrial';
+}
+
+#admin-page #duh .btn {
+  color: white;
+  border-radius: 0px;
+  font-family: 'Questrial';
+  text-transform: uppercase;
+
+}
+
+#forum-page {
+  background: url('../images/forum-bg.jpeg');
+  background-size: 150%;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+#forum-page #duh {
+  margin-top: 5%;
+  margin-bottom: 30px;
+}
+
+#forum-page #duh h1 {
+  font-family: 'Questrial';
+  text-transform: uppercase;
+}
+
+.table>thead>tr.danger>th {
+  background: #30bbcb;
+  color: white;
+  font-family: 'Questrial';
+  text-transform: uppercase;
+}
+
+.table>tbody>tr>td {
+  background: white !important;
+}
+
+.btn {
+  border-radius: 0px;
+  color: white;
+  font-family: 'Questrial';
+}
+
+a.btn {
+  color: white !important;
+}
+
+#duh select.form-control {
+padding:10px !important;
+}
+
+select.form-control {
+padding-left:5px !important;
+}
