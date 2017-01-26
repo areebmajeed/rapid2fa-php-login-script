@@ -42,7 +42,7 @@ $username = filterData($_POST['username']);
 $password = filterData($_POST['password']);
 
 $stmt = mysqli_stmt_init($con);
-$stmt = mysqli_prepare($con,"SELECT user_id,user_name,password_hash,user_email,user_verified,failed_logins,last_failed_login,account_group,account_status FROM users WHERE user_name = ? LIMIT 1");
+$stmt = mysqli_prepare($con,"SELECT user_id,user_name,password_hash,user_email,user_verified,failed_logins,last_failed_login,account_status FROM users WHERE user_name = ? LIMIT 1");
 mysqli_stmt_bind_param($stmt,"s",$username);
 mysqli_stmt_execute($stmt);
 $load_user = mysqli_stmt_get_result($stmt);
